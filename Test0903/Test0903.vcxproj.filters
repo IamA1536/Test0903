@@ -13,5 +13,30 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="头文件\Data">
+      <UniqueIdentifier>{37649cb1-e182-4347-ba1b-b061518c1f73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\testClass1">
+      <UniqueIdentifier>{00257ace-87b5-4bfb-9510-802d037e4153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Fun">
+      <UniqueIdentifier>{85ac5258-ed8c-4686-8451-41b917669312}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="int.h">
+      <Filter>头文件\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="char.h">
+      <Filter>头文件\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>头文件\Fun</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Test.cpp">
+      <Filter>源文件\testClass1</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
